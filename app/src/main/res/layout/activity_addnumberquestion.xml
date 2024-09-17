@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cacvisao"
+    tools:context=".Activity.AddnumberquestionActivity">
+
+    <TextView
+        android:id="@+id/tw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold|normal"
+        android:paddingTop="30dp"
+
+/>
+    <EditText
+        android:id="@+id/question"
+        android:layout_below="@+id/tw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Question"
+        android:textColorHint="@color/white"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/ops1"
+        android:layout_below="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Options 1"
+        android:textColorHint="@color/white"
+        android:layout_margin="16dp"/>
+    <EditText
+        android:id="@+id/ops2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Options 2"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/ops1"
+        android:layout_margin="16dp"/>
+    <EditText
+        android:id="@+id/ops3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Options 3"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/ops2"
+        android:layout_margin="16dp"/>
+    <EditText
+        android:id="@+id/ops4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Options 4"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/ops3"
+        android:layout_margin="16dp"/>
+    <EditText
+        android:id="@+id/correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correct"
+        android:textColorHint="@color/white"
+        android:layout_below="@id/ops4"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/addQsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Question"
+        android:layout_below="@id/correct"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>

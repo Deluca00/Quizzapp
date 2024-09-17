@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">QuizOnline</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Add this style for circular image view -->
+    <style name="Widget.MaterialComponents.ShapeableImageView.Circle" parent="">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.Circle</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+</resources>
